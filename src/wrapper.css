@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 530px;
+}
+
+.wrapper:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.output {
+  text-align: center;
+  margin: 0 auto;
+  width: 220px;
+  border: 1px solid #0000004f;
+  border-radius: 15px;
+}
+
+.wrapper .style {
+  border: 1px solid black;
+  border-radius: 13px;
+}
